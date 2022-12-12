@@ -6,6 +6,5 @@ public class VariableTypes {
         String fullText = "Some stuff in here";
         char answer = 'a';
         boolean fact = true; //or false
-        
     }
 }
