@@ -5,13 +5,9 @@ public class MuseumTickets {
         int age = 20;
         boolean isStudent = true;
 
-        if (age <= 15) {
-            ticketPrice = 5;
-        } else if (age > 60) {
-            ticketPrice = 5;
-        } else if (isStudent) {
+        if ((age <= 15) || (age > 60) || (isStudent)) {
             ticketPrice = 5;
         }
-        System.out.println("Ticket price: $" + ticketPrice);
+            System.out.println("Ticket price: $" + ticketPrice);
     }
 }
